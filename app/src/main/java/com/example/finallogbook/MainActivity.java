@@ -76,8 +76,8 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.buttonAction);
         EditText inputPictureUri = findViewById(R.id.textImage);
 
-        arrlist.add( new Upload("https://cdn-fastly.petguide.com/media/2022/02/28/8263745/samoyed.jpg?size=720x845&nocrop=1") );
-        arrlist.add( new Upload("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxyYbyPjyXRNxtes9LRfpNHRerDHDaddEkmw&usqp=CAU") );
+        arrlist.add( new Upload("https://i.pinimg.com/236x/ca/fe/b2/cafeb2e288f830b582092fdcceea5dee.jpg") );
+        arrlist.add( new Upload("https://i.pinimg.com/236x/07/eb/c8/07ebc87537ad8796f811572f6eda1da9--funny-animals-adorable-animals.jpg") );
 
         if (arrlist.size() > 0) {
             Picasso.with(this)
